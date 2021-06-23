@@ -7,8 +7,9 @@ int main( )
 	filePointer = fopen("filehandling.c", "w") ;
 	if ( filePointer == NULL )
 	{
-		printf( "filehndling.c file failed to open." ) ;
 		
+		printf( "filehndling.c file failed to open." ) ;
+
 	} 
 	else
 	{
