@@ -11,7 +11,8 @@ int main( )
 		printf( "filehndling.c file failed to open." ) ;
 
 	} 
-	else
+	//test comment
+	else 
 	{
 		printf("The file is now opened.\n") ;
 		if ( strlen ( dataToBeWritten ) > 0 )
