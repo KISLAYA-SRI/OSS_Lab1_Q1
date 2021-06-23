@@ -8,7 +8,8 @@ int main( )
 	if ( filePointer == NULL )
 	{
 		printf( "filehndling.c file failed to open." ) ;
-	}
+		
+	} 
 	else
 	{
 		printf("The file is now opened.\n") ;
